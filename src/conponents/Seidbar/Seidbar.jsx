@@ -1,5 +1,5 @@
 import React from 'react'
-import { HiMenu } from "react-icons/hi";
+import { HiChevronDoubleRight } from "react-icons/hi";
 
 const Seidbar = () => {
   return (
