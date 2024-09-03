@@ -4,6 +4,7 @@
 // import Main from '../Main/Main';
 // import Sidebar from '../Sidebar/Sidebar';
 import { HiMenu } from "react-icons/hi";
+import Seidbar from "../Seidbar/Seidbar";
 
 import './App.css'
 
@@ -12,7 +13,8 @@ const App = () => {
     <div >
         Hallo man
         <HiMenu />
-      {/* <Sidebar />
+        <Seidbar/>
+      {/* <Sidnpmebar />
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/contacts" element={<Contacts />} />
