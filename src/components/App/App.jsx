@@ -7,11 +7,13 @@ import { HiMenu } from "react-icons/hi";
 import Seidbar from "../Seidbar/Seidbar";
 
 import './App.css'
+import OurWork from "../OurWork/OurWork";
+import Hero from "../Hero/Hero";
 
 const App = () => {
   return (
     <div >
-        Hallo man
+        <Hero/>
         <HiMenu />
         <Seidbar/>
       {/* <Sidnpmebar />
@@ -20,6 +22,7 @@ const App = () => {
         <Route path="/contacts" element={<Contacts />} />
       </Routes>
       <Main /> */}
+      <OurWork/>
     </div>
   );
 };

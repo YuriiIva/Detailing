@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { useLockBodyScroll } from 'react-use';
 // import { useToggle } from '@reactuses/core'
@@ -7,7 +7,17 @@ import styles from './Modal.module.css';
 
 const modalRootRef = document.querySelector('#modal-root');
 
-const Modal = ({ closeForm, description }) => {
+const Modal = () => {
+
+    const [isOpenMod, setisOpenMod] = useState(false);
+    
+  
+ 
+    
+    const closeForm = () => {
+      setisOpenMod(prev => !prev);
+    };
+  
   useLockBodyScroll(true);
 
   useEffect(() => {
@@ -43,7 +53,7 @@ const Modal = ({ closeForm, description }) => {
         <div className={styles.content}>
           <div className={styles.lead}></div>
 
-          {description}
+          {/* {description} */}
         </div>
       </div>
     </div>,
