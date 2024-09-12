@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(205 200 200);
+    padding: 15px;
+}
+
+
+.headerLogo {
+    max-width: 8%;
+}
+
+.toggle_btn{
+    height: 30px;
+    width: 30px;
+    border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: inset -4px -4px 7px rgba(0, 0, 0, 0.2);
+  transition: all 300ms;
+}

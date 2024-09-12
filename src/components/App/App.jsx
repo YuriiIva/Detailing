@@ -3,19 +3,23 @@
 
 // import Main from '../Main/Main';
 // import Sidebar from '../Sidebar/Sidebar';
-import { HiMenu } from "react-icons/hi";
+
 import Seidbar from "../Seidbar/Seidbar";
 
-import './App.css'
+// import './App.css'
 import OurWork from "../OurWork/OurWork";
 import Hero from "../Hero/Hero";
+import Header from "../Header/Header";
+import s from "./App.module.css";
 
 const App = () => {
   return (
-    <div >
+   
+    <div className={s.main_container} >
+
+      <Header/>
         <Hero/>
-        <HiMenu />
-        <Seidbar/>
+        <Seidbar/> 
       {/* <Sidnpmebar />
       <Routes>
         <Route path="/" element={<Main />} />
