@@ -8,10 +8,11 @@ import styles from './Modal.module.css';
 const modalRootRef = document.querySelector('#modal-root');
 
 const Modal = () => {
+  
 
     const [isOpenMod, setisOpenMod] = useState(false);
     
-  
+  console.log("Modal", isOpenMod)
  
     
     const closeForm = () => {
@@ -52,8 +53,8 @@ const Modal = () => {
         </header>
         <div className={styles.content}>
           <div className={styles.lead}></div>
-
-          {/* {description} */}
+{/* 
+          {description} */}
         </div>
       </div>
     </div>,

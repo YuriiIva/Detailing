@@ -19,7 +19,7 @@ const App = () => {
 
       <Header/>
         <Hero/>
-        <Seidbar/> 
+        {/* <Seidbar/>  */}
       {/* <Sidnpmebar />
       <Routes>
         <Route path="/" element={<Main />} />
